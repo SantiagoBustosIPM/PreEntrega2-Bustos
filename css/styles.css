@@ -1,0 +1,97 @@
+/* Estilos generales */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar {
+    border-bottom: 3px solid #ffc107; /* Color del borde de la navbar */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff; /* Color del texto de los enlaces */
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107; /* Color del texto de los enlaces al pasar el mouse */
+}
+
+footer.footer {
+    background-color: #343a40; /* Color de fondo del footer */
+    color: #fff; /* Color del texto del footer */
+}
+
+/* Estilos específicos para index.html */
+
+section {
+    padding: 60px 0;
+}
+
+.btn-primary {
+    background-color: #ffc107; /* Color de fondo del botón principal */
+    border-color: #ffc107; /* Color del borde del botón principal */
+}
+
+.btn-primary:hover {
+    background-color: #ffcd39; /* Color de fondo del botón principal al pasar el mouse */
+    border-color: #ffcd39; /* Color del borde del botón principal al pasar el mouse */
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+}
+
+/* Estilos específicos para about.html */
+
+.section-about {
+    padding: 80px 0;
+    background-color: #fff; /* Color de fondo de la sección Acerca de */
+}
+
+.section-about h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.section-about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.section-mission-vision {
+    padding: 80px 0;
+    background-color: #f8f9fa; /* Color de fondo de la sección Misión y Visión */
+}
+
+.section-mission-vision h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.section-mission-vision h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.section-mission-vision p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
